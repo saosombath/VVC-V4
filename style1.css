@@ -10,6 +10,9 @@ body.html{
 .field{
   font-family: Khmer OS Battambang;
 }
+.select{
+  font-family: Khmer OS Battambang;
+}
  .title{
     display: inline-flex;
     position: relative;
