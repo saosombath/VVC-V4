@@ -53,7 +53,7 @@ body.html{
  .main-form{
    position: relative;
    top: 2rem;
-  font-family: Khmer OS Battambang;
+   font-family: Khmer OS Battambang;
  }
  .menu{
    right: 5rem;
@@ -66,6 +66,7 @@ body.html{
   font-weight: bold;
   color: rgb(0, 0, 0);
   align-items: center;
+  font-family: Kh Battambang;
   
 
 }
