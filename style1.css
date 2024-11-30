@@ -59,6 +59,11 @@ body.html{
 .color-box{
   color: black;
 }
+.textarea-box{
+  height: 100vh;
+  width: 100%;
+  position: relative;
+}
  .drop{
   width: 100%;
   position: relative;
@@ -108,6 +113,18 @@ body.html{
 .main-homepage{
   align-items: center;
   text-align: center;
+}
+.daily-report{
+  background-color: #02005f;
+  border-radius: 10px;
+  width: 100%;
+  color: white;
+  padding: 20px 20px;
+  align-items: center;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
 }
  @media only screen and (max-width: 600px){
    .logo{
