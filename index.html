@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <link rel="stylesheet" href="style.css">
     <script type="module" src="firebaseauth.js"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
 </head>
 <body>
     <div class="container" id="signup" style="display:none;">
@@ -49,8 +50,9 @@
     </div>
 
   <div class="container" id="signIn">
+    <div class="icon-login"><a href=""><img src="https://i.ibb.co/56R4ZYy/Logo-Van-Van-1.png" alt=""></a></div>
         <h1 class="form-title">សូមស្វាគមន៍មកកាន់ VVC</h1>
-        <form method="post" action="">
+        <form method="post" action="" id="ani">
           <div id="signInMessage" class="messageDiv" style="display:none;"></div>
 
           <div class="input-group">
@@ -81,5 +83,29 @@
         <div class="footer"><span>Copyright© VVC Cambodia</span></div>
       </div>
       <script src="script.js"></script>
+      <script>
+              const scrollRevealOption = {
+    origin: "bottom",
+    distance: "10px",
+    duration: 1000,
+  };
+  
+  ScrollReveal().reveal(".icon-login", {
+    ...scrollRevealOption,
+    origin: "bottom",
+  });
+  ScrollReveal().reveal(".form-title", {
+    ...scrollRevealOption,
+    delay: 400,
+  });
+  ScrollReveal().reveal("#ani", {
+    ...scrollRevealOption,
+    delay: 500,
+  });
+  ScrollReveal().reveal(".f-boks", {
+    ...scrollRevealOption,
+    delay: 700,
+  });
+      </script>
 </body>
 </html>
