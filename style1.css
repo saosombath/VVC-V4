@@ -96,7 +96,8 @@ body.html{
   border: none;
 }
 #logout{
-  
+  position: relative;
+  top: 25rem;
   background-color: #02005f;
   color: white;
   outline: none;
