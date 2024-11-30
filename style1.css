@@ -126,6 +126,10 @@ body.html{
   -ms-border-radius: 10px;
   -o-border-radius: 10px;
 }
+.message{
+  font-size: 30px;
+  text-align: center;
+}
  @media only screen and (max-width: 600px){
    .logo{
       left: 0;
