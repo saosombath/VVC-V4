@@ -13,17 +13,14 @@ option{
 #form{
   font-family: Kh Battambang;
 }
-.field{
-  font-family:Kh Battambang;
-}
- .title{
+.title{
     display: inline-flex;
     position: relative;
     gap: 10px;
     font-size: 18px;
     font-family: Kh Battambang;
  }
- .title1{
+.title1{
     display: inline-flex;
     position: relative;
     gap: 30px;
@@ -55,7 +52,7 @@ option{
  .main-form{
    position: relative;
    top: 2rem;
-   font-family: Khmer OS Battambang;
+   font-family: Kh Battambang;
  }
  .menu{
    right: 5rem;
@@ -79,7 +76,7 @@ option{
   height: 100vh;
   width: 100%;
   position: relative;
-  font-family: Khmer OS Battambang;
+  font-family: Kh Battambang;
 }
  .drop{
   width: 100%;
@@ -97,6 +94,8 @@ option{
   color: black;
   text-align: center;
   text-decoration: underline;
+  font-family:Kh Battambang ;
+  
 }
 .btn{
   color: white;
