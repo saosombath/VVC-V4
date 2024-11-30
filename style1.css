@@ -18,15 +18,14 @@ body.html{
     position: relative;
     gap: 10px;
     font-size: 18px;
-     font-family: Khmer OS Battambang;
-   
+    font-family: Kh Battambang;
  }
  .title1{
     display: inline-flex;
     position: relative;
     gap: 30px;
     font-size: 18px;
-     font-family: Khmer OS Battambang;
+    font-family: Kh Battambang;
  }
  .logo{
    position: relative;
