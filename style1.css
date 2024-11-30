@@ -5,6 +5,7 @@ body.html{
 }
 .main-form{
     position: relative;
+    font-family: Khmer OS Battambang;
 }
  .title{
     display: inline-flex;
