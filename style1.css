@@ -7,6 +7,10 @@ body.html{
     position: relative;
     font-family: Khmer OS Battambang;
 }
+option{
+  font-family:Kh Battambang ;
+  
+}
 #form{
   font-family: Khmer OS Battambang;
 }
