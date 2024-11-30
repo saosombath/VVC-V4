@@ -1,21 +1,20 @@
 body.html{
   scroll-behavior: smooth;
   height: 100vh;
-  font-family: Khmer OS Battambang;
 }
 .main-form{
     position: relative;
-    font-family: Khmer OS Battambang;
+    font-family:Kh Battambang;
 }
 option{
   font-family:Kh Battambang ;
   
 }
 #form{
-  font-family: Khmer OS Battambang;
+  font-family: Kh Battambang;
 }
 .field{
-  font-family: Khmer OS Battambang;
+  font-family:Kh Battambang;
 }
  .title{
     display: inline-flex;
