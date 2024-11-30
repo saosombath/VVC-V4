@@ -125,7 +125,7 @@
             <input
               class="input drop"
               type="text"
-              placeholder="ឈ្មោះរបស់អ្នក" name="ឈ្មោះអ្នកសើ្នសុំ" id="Name" required />
+              placeholder="ឈ្មោះរបស់អ្នក" name="ឈ្មោះអ្នកសើ្នសុំ" id="namerequest" required />
           </div>
         </div>
         <!-- ចំនួនថ្ងៃ -->
@@ -508,16 +508,16 @@
 var telegram_bot_id = "7680707479:AAG38M8FpFbuVfqWCLwxUKo7l7iKJCXOEz8";
 //chat id
 var chat_id = -4565017646;
-var numberofdays, date, Name,Positions,Branch,reason;
+var numberofdays, date, namerequest,Positions,Branch,reason;
 var ready = function () {
-  Name = document.getElementById("Name").value;
+  namerequest = document.getElementById("namerequest").value;
   date = document.getElementById("date").value;
   numberofdays = document.getElementById("numberofdays").value;
   typeofrequest = document.getElementById("typeofrequest").value;
   Positions = document.getElementById("Positions").value;
   Branch = document.getElementById("Branch").value;
   reason = document.getElementById("reason").value;
-    message = "\n- អ្នកស្នើរសុំ៖ " + name + "\n- មុខដំណែង៖  " + Positions + "\n- សាខា៖  " + Branch + "\n- ថ្ងៃខែឆ្នាំ៖  " + date + "\n- ចំនួនថ្ងៃ៖  " + numberofdays + "\n- ប្រភេទនៃការស្នើរសុំ​៖  " + typeofrequest  + "\n- មូលហេតុ៖  " + reason;
+    message = "\n- អ្នកស្នើរសុំ៖ " + namerequest + "\n- មុខដំណែង៖  " + Positions + "\n- សាខា៖  " + Branch + "\n- ថ្ងៃខែឆ្នាំ៖  " + date + "\n- ចំនួនថ្ងៃ៖  " + numberofdays + "\n- ប្រភេទនៃការស្នើរសុំ​៖  " + typeofrequest  + "\n- មូលហេតុ៖  " + reason;
 };
 var sender = function () {
     ready();
