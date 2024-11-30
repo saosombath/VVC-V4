@@ -7,22 +7,13 @@ body.html{
     position: relative;
     font-family: Khmer OS Battambang;
 }
-placeholder{
-      font-family: Khmer OS Battambang;
-}
-value{
-      font-family: Khmer OS Battambang;
-}
-option{
-      font-family: Khmer OS Battambang;
-}
 #form{
   font-family: Khmer OS Battambang;
 }
 .field{
   font-family: Khmer OS Battambang;
 }
-.select{
+select{
   font-family: Khmer OS Battambang;
 }
  .title{
