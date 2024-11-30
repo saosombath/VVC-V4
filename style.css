@@ -177,6 +177,9 @@ button{
   background-color: white;
   color: white;
 }
+#gmail{
+    font-family: Times New Roman;
+}
 @media only screen and (max-width: 600px){
     .logo{
        left: 0;
