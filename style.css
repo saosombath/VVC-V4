@@ -2,6 +2,7 @@
     margin:0;
     padding:0;
     box-sizing:border-box;
+    font-family:"poppins",sans-serif;
     scroll-behavior: smooth;
 }
 body{
@@ -146,6 +147,12 @@ button{
     animation:fadeOut 7s forwards;
 
 }
+.logo{
+    position: relative;
+    left: 5rem;
+    width: 250px;
+    align-items: center;
+  }
 @media only screen and (max-width: 600px){
     .logo{
        left: 0;
