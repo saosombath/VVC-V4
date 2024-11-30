@@ -147,6 +147,12 @@ button{
     animation:fadeOut 7s forwards;
 
 }
+.footer{
+    align-items: center;
+    position: relative;
+    text-align: center;
+    top: 10rem;
+}
 .logo{
     position: relative;
     left: 5rem;
@@ -165,5 +171,19 @@ button{
     }
     .text-select{
      text-align: center;
+    }
+    .footer{
+        align-items: center;
+        position: relative;
+        text-align: center;
+        top: 20rem;
+    }
+    .container{
+        background:#fff;
+        width:350px;
+        padding:1.5rem;
+        margin:50px auto;
+        border-radius:10px;
+        /* box-shadow:0 20px 35px rgba(0,0,1,0.9); */
     }
   }
