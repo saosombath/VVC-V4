@@ -13,20 +13,20 @@ body.html{
 .field{
   font-family: Khmer OS Battambang;
 }
-select{
-  font-family: Khmer OS Battambang;
-}
  .title{
     display: inline-flex;
     position: relative;
     gap: 10px;
     font-size: 18px;
+     font-family: Khmer OS Battambang;
+   
  }
  .title1{
     display: inline-flex;
     position: relative;
     gap: 30px;
     font-size: 18px;
+     font-family: Khmer OS Battambang;
  }
  .logo{
    position: relative;
