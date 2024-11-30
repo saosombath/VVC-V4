@@ -144,6 +144,9 @@ body.html{
 .font-change{
   font-family: Khmer OS Battambang;
 }
+.font-C{
+  font-family: Khmer OS Battambang;
+}
  @media only screen and (max-width: 600px){
    .logo{
       left: 0;
