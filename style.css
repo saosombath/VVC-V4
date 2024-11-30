@@ -43,6 +43,7 @@ input{
 .input-group{
     padding:1% 0;
     position:relative;
+    font-family: Times New Roman;
 
 }
 .input-group i{
