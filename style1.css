@@ -1,8 +1,4 @@
-    *{
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-    }
+
 body.html{
   scroll-behavior: smooth;
   height: 400vh;
@@ -35,7 +31,9 @@ body.html{
  .navbar {
    z-index: 100;
    color: white;
-   position: sticky;
+   left: 0;
+   right: 0;
+   position: fixed;
    top: 0;
    width: 100%;
    background-color: rgb(255, 255, 255);
