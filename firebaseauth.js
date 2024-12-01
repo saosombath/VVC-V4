@@ -77,7 +77,7 @@
         showMessage('login is successful', 'signInMessage');
         const user=userCredential.user;
         localStorage.setItem('loggedInUserId', user.uid);
-        window.location.href='index2.html';
+        window.location.href='index1.html';
     })
     .catch((error)=>{
         const errorCode=error.code;
