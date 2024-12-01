@@ -1,35 +1,20 @@
+
 body.html{
   scroll-behavior: smooth;
-  height: 100vh;
+  height: 400vh;
+  font-family: Khmer OS Battambang;
 }
-.main-form{
-    position: relative;
-    font-family:Kh Battambang;
-}
-.container{
-  font-family:Kh Battambang ;
-  
-}
-option{
-  font-family:Kh Battambang ;
-  
-}
-#form{
-  font-family: Kh Battambang;
-}
-.title{
+ .title{
     display: inline-flex;
     position: relative;
     gap: 10px;
     font-size: 18px;
-    font-family: Kh Battambang;
  }
-.title1{
+ .title1{
     display: inline-flex;
     position: relative;
     gap: 30px;
     font-size: 18px;
-    font-family: Kh Battambang;
  }
  .logo{
    position: relative;
@@ -45,19 +30,18 @@ option{
  }
  .navbar {
    z-index: 100;
-   font-size: 18px ;
    color: white;
    position: sticky;
    top: 0;
    width: 100%;
    background-color: rgb(255, 255, 255);
    box-shadow: 0px 1px 5px 1px rgba(0, 0, 0, 0.192);
-   font-family: Khmer OS Battambang;
+
  }
  .main-form{
    position: relative;
-   top: 2rem;
-   font-family: Kh Battambang;
+   top: -7rem;
+   width: 50%;
  }
  .menu{
    right: 5rem;
@@ -71,18 +55,16 @@ option{
   color: rgb(0, 0, 0);
   align-items: center;
   font-family: Kh Battambang;
-  
 
 }
 .color-box{
   color: black;
 }
-.textarea-box{
+/* .textarea-box{
   height: 100vh;
   width: 100%;
   position: relative;
-  font-family: Kh Battambang;
-}
+} */
  .drop{
   width: 100%;
   position: relative;
@@ -99,12 +81,13 @@ option{
   color: black;
   text-align: center;
   text-decoration: underline;
-  font-family:Kh Battambang ;
-  
 }
 .btn{
   color: white;
   left: 0;
+  top: 0.5rem;
+  text-align: center;
+  align-items: center;
 }
 .btn:hover{
   color: white;
@@ -116,14 +99,17 @@ option{
 
   border: none;
 }
-#logout{
-  position: relative;
-  top: 25rem;
-  background-color: #02005f;
-  color: white;
+ a #logout{
   outline: none;
+  background: none;
+  color: white;
+  font-size: 25px;
   border: none;
+  justify-content: end;
   padding: 20px 20px;
+  left: 85%;
+  top: 1rem;
+  position: absolute;
   border-radius: 10px;
   align-items: center;
   text-align: center;
@@ -131,39 +117,52 @@ option{
   -moz-border-radius: 10px;
   -ms-border-radius: 10px;
   -o-border-radius: 10px;
-  font-family: Khmer OS Battambang;
 }
 .main-homepage{
   align-items: center;
   text-align: center;
 }
 .daily-report{
-
-  background-color: #02005f;
-  border-radius: 10px;
-  top: 4rem;
-  width: 100%;
-  color: white;
+  position: relative;
+  top: -5rem;
+  text-align: center;
   padding: 20px 20px;
+  border-radius: 10px;
+  width: 100%;
+  color: rgb(0, 0, 0);
   align-items: center;
   -webkit-border-radius: 10px;
   -moz-border-radius: 10px;
   -ms-border-radius: 10px;
   -o-border-radius: 10px;
-   font-family: Khmer OS Battambang;
 }
 .message{
   font-size: 30px;
   text-align: center;
-  font-family: Khmer OS Battambang;
 }
 .navbar-toggler{
   border: none;
   background-color: white;
   color: white;
 }
-.main-homepage{
-  font-family: Khmer OS Battambang;
+.btn-hover:hover{
+  transition: all 0.2s ease;
+  transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  -o-transform: scale(1.1);
+  -webkit-transition: all 0.2s ease;
+  -moz-transition: all 0.2s ease;
+  -ms-transition: all 0.2s ease;
+  -o-transition: all 0.2s ease;
+}
+.text-color-hover:hover{
+  color: #02005f;
+}
+.text-hover:hover{
+  transition: all 0.2s ease;
+  color: blue;
 }
  @media only screen and (max-width: 600px){
    .logo{
