@@ -132,7 +132,6 @@ body.html{
 .daily-report{
   position: relative;
   top: -5rem;
-  z-index:10;
   text-align: center;
   padding: 20px 20px;
   border-radius: 10px;
