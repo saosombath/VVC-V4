@@ -48,6 +48,7 @@ body.html{
  .main-form{
    position: relative;
    top: -7rem;
+   background:none;
    width: 50%;
  }
  .menu{
