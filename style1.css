@@ -47,8 +47,7 @@ body.html{
  }
  .main-form{
    position: relative;
-   top: -5rem;
-   z-index:10;
+   top: -7rem;
    width: 50%;
  }
  .menu{
@@ -132,7 +131,6 @@ body.html{
 }
 .daily-report{
   position: relative;
-  z-index:11;
   top: -5rem;
   text-align: center;
   padding: 20px 20px;
