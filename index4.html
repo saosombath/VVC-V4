@@ -11,6 +11,11 @@
   <link rel="stylesheet" href="/node_modules/bootstrap-icons/icons/">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
   <style>
+    *{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
       .swiper {
       width: 90%;
       top: -2rem;
@@ -36,7 +41,6 @@
       }
       .bottom-menu{
         left: 0;
-        position: fixed;
       }
       .menu-card{
         position: relative;
@@ -168,14 +172,13 @@
     .bottom-menu {
       position: fixed;
       bottom: 0;
-      top:0;
       width: 100%;
       background-color: #fff;
       border-top: 1px solid #ddd;
       display: flex;
       left: 0;
       justify-content: space-around;
-      padding: 25px 0;
+      padding: 5px 0;
     }
 
     .bottom-menu a {
@@ -225,7 +228,7 @@
   <section class="hero is-bold container">
     <div class="hero-body">
       <div class="container mt-6">
-        <h1 class="daily-report text-black fs-3">របាយការណ៍ប្រចាំថ្ងៃ</h1>
+        <h1 class="daily-report text-black">របាយការណ៍ប្រចាំថ្ងៃ</h1>
       </div>
     </div>
   </section>
@@ -274,10 +277,12 @@
         />
       </div>
     </div>
-    <!-- <div class="field"> -->
+    <div class="field">
+      <div class="control">
       <label class="label">របាយការពេលល្ងាច</label>
         <textarea oninput="this.style.height = ''; this.style.height = this.scrollHeight + 'px';" placeholder="សរសេររបាយការណ៍របស់អ្នក" name="Content"></textarea>
-      <!-- </div> -->
+      </div>
+      </div>
     <div class="field is-grouped">
       <div class="control">
         <button class="button bg-primary btn" type="submit" id="submit-button">
@@ -305,7 +310,7 @@
   </form>
     <!-- Bottom Navigation -->
     <div class="bottom-menu">
-      <a href="index1.html"><i class="fa-solid fa-house"></i></a>
+      <a href="#"><i class="fa-solid fa-house"></i></a>
       <a href="#"><i class="bi bi-chat-dots-fill"></i></a>
       <a href="#"><i class="fa-solid fa-people-group"></i></a>
     </div>
